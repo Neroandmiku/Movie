@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.neroandmiku.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_Amfibios"
+        android:name="com.example.neroandmiku.nav_Amfibios"
+        android:label="Amfibios"
+        tools:layout="@layout/fragment_nav__amfibios" />
+    <fragment
+        android:id="@+id/nav_Reptiles"
+        android:name="com.example.neroandmiku.nav_Reptiles"
+        android:label="Reptiles"
+        tools:layout="@layout/fragment_nav__reptiles" />
+    <fragment
+        android:id="@+id/nav_Calculadora"
+        android:name="com.example.neroandmiku.nav_Calculadora"
+        android:label="Calculadora"
+        tools:layout="@layout/fragment_nav__calculadora" />
+    <fragment
+        android:id="@+id/leon"
+        android:name="com.example.neroandmiku.leon"
+        android:label="Leon"
+        tools:layout="@layout/fragment_leon" />
+    <fragment
+        android:id="@+id/nav_Mamiferos2"
+        android:name="com.example.neroandmiku.nav_Mamiferos2"
+        android:label="Mamiferos"
+        tools:layout="@layout/fragment_nav__mamiferos2" />
+
+</navigation>
